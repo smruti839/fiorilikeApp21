@@ -1,0 +1,26 @@
+<!-- Hello SAP Ui5/Fiori  -->
+<html>
+
+<head>
+    <!-- Bootstrap All Ui5 Libraries Loaded (Inititialization) -->
+    <script src="https://ui5.sap.com/resources/sap-ui-core.js" data-sap-ui-libs="sap.m"
+        data-sap-ui-theme="sap_fiori_3_dark" data-sap-ui-resourceroots='{ "com.optcl.mm.pur" : "./"}'
+        data-sap-ui-bindingSyntax="complex">
+        </script>
+
+    <!-- View Object Created -->
+    <script>
+        var oCompContainer = new sap.ui.core.ComponentContainer({
+            name: "com.optcl.mm.pur"
+        });
+        oCompContainer.placeAt("content");
+    </script>
+</head>
+
+<body class="sapUiBody">
+    <div id="content"> </div>
+    <!-- <div id="spiderman"> </div> -->
+
+</body>
+
+</html>
